@@ -1,0 +1,30 @@
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.exe.config
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.exe
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.pdb
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\bin\Debug\MySql.Data.dll
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.AssemblyReference.cache
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.form.FormLogin.resources
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.Properties.Resources.resources
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.GenerateResource.cache
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.CoreCompileInputs.cache
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_.F03CF17F.Up2Date
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.exe
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.pdb
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.form.FormRegister.resources
+C:\PRAKTIKUM_PBO\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.form.Register.resources
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.exe.config
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.exe
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\Debug\simanik_kel4.pdb
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.AssemblyReference.cache
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.Properties.Resources.resources
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.GenerateResource.cache
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.csproj.CoreCompileInputs.cache
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_.F03CF17F.Up2Date
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.exe
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\obj\Debug\simanik_kel4.pdb
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\Debug\konfig.txt
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\CodexCheck\konfig.txt
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\CodexCheck\simanik_kel4.exe.config
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\CodexCheck\simanik_kel4.exe
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\CodexCheck\simanik_kel4.pdb
+C:\Users\Muba Sayang\Documents\0. KULIAH\Semester 4\Pemrograman Berbasis Objek\simanik_kel4\simanik_kel4\bin\CodexCheck\MySql.Data.dll

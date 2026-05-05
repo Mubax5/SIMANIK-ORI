@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAD607BA-EF48-4E6A-97C4-595518C83B7E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>simanik_kel4</RootNamespace>
+    <AssemblyName>simanik_kel4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="konfigurasi\Koneksi.cs" />
+    <Compile Include="konfigurasi\Konfigurasi.cs" />
+    <Compile Include="konfigurasi\Settings.cs" />
+    <Compile Include="model\AdminAccount.cs" />
+    <Compile Include="model\Disease.cs" />
+    <Compile Include="model\DoctorAccount.cs" />
+    <Compile Include="model\DoctorProfile.cs" />
+    <Compile Include="model\DoctorSchedule.cs" />
+    <Compile Include="model\Examination.cs" />
+    <Compile Include="model\MedicalRecord.cs" />
+    <Compile Include="model\Medicine.cs" />
+    <Compile Include="model\PatientAccount.cs" />
+    <Compile Include="model\PatientProfile.cs" />
+    <Compile Include="model\Person.cs" />
+    <Compile Include="model\PrescriptionDetail.cs" />
+    <Compile Include="model\Reservation.cs" />
+    <Compile Include="model\UserAccount.cs" />
+    <Compile Include="model\Visit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\Auth_serv.cs" />
+    <Compile Include="service\Dashboard_serv.cs" />
+    <Compile Include="service\Disease_serv.cs" />
+    <Compile Include="service\Doctor_serv.cs" />
+    <Compile Include="service\Examination_serv.cs" />
+    <Compile Include="service\MedicalRecord_serv.cs" />
+    <Compile Include="service\Medicine_serv.cs" />
+    <Compile Include="service\Patient_serv.cs" />
+    <Compile Include="service\Prescription_serv.cs" />
+    <Compile Include="service\Report_serv.cs" />
+    <Compile Include="service\Reservation_serv.cs" />
+    <Compile Include="service\Schedule_serv.cs" />
+    <Compile Include="service\User_serv.cs" />
+    <Compile Include="service\Visit_serv.cs" />
+    <Compile Include="view\antrian_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\checkin_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\dashboard_admin_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\dashboard_dokter_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\dashboard_pasien_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\dokter_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\jadwal_dokter_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\laporan_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\login_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\obat_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\pasien_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\pemeriksaan_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\penyakit_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\register_pasien_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\rekam_medis_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\reservasi_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\riwayat_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\user_fm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="view\dashboard_admin_fm.resx">
+      <DependentUpon>dashboard_admin_fm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="konfig.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database\simanik.sql" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
