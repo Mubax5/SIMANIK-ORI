@@ -16,7 +16,7 @@ namespace simanik_kel4
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new simanik_kel4.view.login_fm());
+            MessageBox.Show("View belum tersedia.", "SIMANIK", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

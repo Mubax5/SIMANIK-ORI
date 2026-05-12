@@ -1,0 +1,6 @@
+.vs/
+**/obj/
+**/bin/*
+!**/bin/Debug/
+**/bin/Debug/*
+!**/bin/Debug/konfig.txt
